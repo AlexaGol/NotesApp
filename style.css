@@ -1,0 +1,78 @@
+body {
+    background-image: url('/img/background.jpg');
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+h1{
+    color: azure;
+    font-size: 70px;
+    letter-spacing: 7px;
+    text-shadow: 1px 3px 6px rgba(48, 45, 40, 1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#txtAr{
+    width: 500px;
+}
+#dt{
+    margin: 20px 0 20px 0;
+    width: 500px;
+    height: 30px;
+}
+#tm{
+    width: 500px;
+    height: 30px;
+}
+
+/* button */
+.learn-more{
+    align-self: center;
+    background: #ffffff;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    margin-top: 20px;
+    width: 200px;
+  }
+  
+.learn-more:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+.learn-more :active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+
+  /* tasks */
+.tasks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.note{
+    background-image: url('/img/note.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.pinnedTask {
+margin-top: 80px;
+}

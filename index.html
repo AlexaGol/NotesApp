@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Note Board</title>
+</head>
+<body>
+
+    <div class="main">
+        <h1>My Note Board</h1>
+            <div class="form">
+                <form class="taskForm">
+                    <div class="txt">
+                        <textarea id="txtAr" cols="30" rows="5" 
+                        maxlength="250" placeholder="Enter your tasks here...">
+                        </textarea>
+                    </div>
+                    <div class="dt">
+                        <input type="date" id="dt">
+                    </div>
+                    <div class="tm">
+                        <input type="time" id="tm">
+                    </div>
+                        
+                </form>
+                <button class="learn-more" onclick="addNote()">Create</button>
+            </div>
+            <div class="tasks" id="task">
+                <div class="note">
+                    <p class="pinnedTask">
+                    <!-- Example task -->
+                    </p>
+                    <button onclick="removeTask(this)">X</button>
+                </div>
+                
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
