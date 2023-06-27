@@ -1,5 +1,5 @@
 body {
-    background-image: url('./img/background.jpg');
+    background-image: url("./img/background.jpg");
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ h1{
     flex-wrap: wrap;
 }
 .note{
-    background-image: url('./img/note.png');
+    background-image: url("./img/note.png");
     background-repeat: no-repeat;
     height: 300px;
     width: 300px;
